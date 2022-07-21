@@ -4,19 +4,19 @@ pipeline {
 		stage("Cleaning Stage") {
 			
 			steps {
-				bat "mvn clean"
+				cat "mvn clean"
 			}
 		}
 		stage("Building Stage") {
 			
 			steps {
-				bat "mvn clean"
+				cat "mvn clean"
 			}
 		}
 		stage("Packaging Stage") {
 			
 			steps {
-				bat "mvn clean"
+				cat "mvn clean"
 			}
 		}
 	}
