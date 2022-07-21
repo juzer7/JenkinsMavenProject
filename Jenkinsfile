@@ -2,13 +2,22 @@ pipeline {
 	agent any
 	stages {
 		stage("Cleaning Stage") {
-			cat "mvn clean"
+			
+			steps {
+				bat "mvn clean"
+			}
 		}
 		stage("Building Stage") {
-			cat "mvn clean"
+			
+			steps {
+				bat "mvn clean"
+			}
 		}
 		stage("Packaging Stage") {
-			cat "mvn clean"
+			
+			steps {
+				bat "mvn clean"
+			}
 		}
 	}
 }
